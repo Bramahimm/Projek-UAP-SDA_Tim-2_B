@@ -111,7 +111,7 @@ def main():
                     nama = input("Masukkan nama makanan: ")
                     kalori = int(input("Jumlah kalori: "))
                     berat = int(input("Masukkan berat makanan (gram): "))
-                    manager.add_food(nama, kalori, berat)
+                    manager.tambahMakanan(nama, kalori, berat)
                 except ValueError:
                     print("\n\n>>> Input tidak valid. Kembali ke menu utama <<<\n\n")
                     penentu = False
