@@ -78,7 +78,7 @@ class CalorieManager:
                 for row in reader:
                     if row:
                         nama, kalori, berat = row
-                        self.add_food(nama, int(kalori), int(berat))
+                        self.tambahMakanan(nama, int(kalori), int(berat))
             print(f"Data diimport dari {path_file}")
         except FileNotFoundError:
             print(f"File {path_file} tidak ditemukan.")
